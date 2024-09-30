@@ -1,0 +1,960 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+nav
+{
+    display: flex;
+    width: 100%;
+    height: 44px;
+    background-color: #161617CC;
+    justify-content: center;
+    align-items: center;
+}
+.hor_white_div
+{
+    width: 1.5%;
+    height: 580px;
+    color:#fff;
+}
+nav ul
+{
+display: flex;
+gap: 45px;
+list-style: none;
+font-size: 12px;
+color: #e0e2e5;
+}
+nav ul i
+{
+    font-size: 18px;
+}
+.searchbutton
+{
+    width: 15px;
+    height: 15px;
+}
+.adbar
+{
+    display: flex;
+    width: 100%;
+    height: 44.59px;
+    background-color: #1d1d1f;
+    justify-content: center;
+    align-items: center;
+    
+}
+.adbar p
+{
+    color: #e0e2e5;
+}
+
+/* image1 */
+.image1_div
+{
+    background-image:url(static/hero_endframe__b3cjfkquc2s2_xlarge.jpg);
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;    
+}
+.image1_div h1{
+    color: #e0e2e5;
+    font-size: 52px;
+    padding-top: 55px;
+    letter-spacing: -.0em;
+}
+.image1_div .overlay_text_para
+{
+    color: #e0e2e5;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 30px;
+    letter-spacing: -.0em;
+}
+.bottom_text_div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: -50px;
+}
+.learnmore_button
+{
+    border: 2px;
+    background-color: #0071e3;
+    border-radius: 19px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 22px;
+}
+.buy_button
+{
+   
+    border-width: .5px;
+    border-color: #2997ff;
+    border-style: solid;
+    background-color:transparent;
+    border-radius: 19px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 11px 18px;
+    color: #2997ff;
+    letter-spacing: -.022em;
+}
+.buy_button:hover
+{
+    background-color:#0071e3;
+    color: #fff;
+}
+
+.textNearBuyButton{
+    font-size: 20px;
+    margin-top: 35px;
+    color: #86868b;
+    
+}
+
+/* image2 */
+
+.image2_div
+{
+    background-image:url(static/Untitled-2.jpg);
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;    
+    margin-top: 10px;
+}
+.top_text_div_image2 h1{
+    color: #e0e2e5;
+    font-size: 52px;
+    padding-top: 55px;
+    letter-spacing: -.0em;
+    padding-left: 52px;
+}
+.image2_div .overlay_text_para_image2
+{
+    color: #e0e2e5;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 30px;
+    letter-spacing: -.0em;
+}
+.bottom_text_div_image2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: -50px;
+}
+.learnmore_button_image2
+{
+    border: 2px;
+    background-color: #0071e3;
+    border-radius: 19px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 22px;
+}
+.buy_button_image2
+{
+   
+    border-width: .5px;
+    border-color: #2997ff;
+    border-style: solid;
+    background-color:transparent;
+    border-radius: 19px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 11px 18px;
+    color: #2997ff;
+    letter-spacing: -.022em;
+}
+.buy_button_image2:hover
+{
+    background-color:#0071e3;
+    color: #fff;
+}
+
+.textNearBuyButton_image2{
+    font-size: 20px;
+    margin-top: 35px;
+    color: #86868b;
+    
+}
+
+/* image3 */
+
+.image3_div
+{
+    background-image:url(static/Untitled-1.jpg);
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    margin-top: 10px;
+}
+.top_text_div_image3 h1{
+    color: #1D1D1F;
+    font-size: 45px;
+    letter-spacing: -.0em;
+}
+.watch_div
+{
+    width: 100px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+.buttons_div
+{
+    width: 100px;
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+    
+}
+.watch_div h1
+{
+    font-size: 42px;
+}
+
+.watch_div img
+{
+width: 48px;
+height: 48px;
+}
+
+.image3_div .overlay_text_para_image3
+{
+    color: #1D1D1F;
+    font-size: 25px;
+    padding-top: 5px;
+    font-weight: 700;
+    letter-spacing: -.0em;
+}
+.image3_div .overlay_text2_para_image3
+{
+    color: #1D1D1F;
+    font-size: 25px;
+    padding-top: 5px;
+    font-weight: 400;
+    letter-spacing: -.0em;
+}
+
+
+.learnmore_button_image3
+{
+    border: 2px;
+    background-color: #0071e3;
+    border-radius: 19px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-left:20px ;
+    padding-right:20px ;
+}
+.buy_button_image3
+{
+   
+    border-width: .5px;
+    border-color: #2997ff;
+    border-style: solid;
+    background-color:transparent;
+    border-radius: 19px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 11px 18px;
+    color: #2997ff;
+    letter-spacing: -.022em;
+}
+.buy_button_image3:hover
+{
+    background-color:#0071e3;
+    color: #fff;
+}
+
+.textNearBuyButton_image3{
+    font-size: 20px;
+    margin-top: 35px;
+    color: #86868b;
+    
+}
+
+/* image4&5 */
+
+.image4_5_div
+{
+width: 100%;
+height: 580px;
+display: flex;
+justify-content: center;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+/* image4 */
+
+.image4_div
+{
+    background-image:url(static/watchultra.jpg);
+    width: 99.6%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    margin-top: 10px;
+}
+
+.watch_div_image4
+{
+    width: 100px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+.buttons_div_image4
+{
+    width: 100px;
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+    
+}
+.watch_div_image4 h1
+{
+    color: #e0e0ec;
+    font-size: 30px;
+}
+
+.watch_div_image4 img
+{
+width: 30px;
+height: 30px;
+background-color: #f0f0f7;
+}
+
+.overlay_text_para_image4
+{
+    color: #ee6b0d;
+    font-size: 13px;
+    padding-top: 5px;
+    font-weight: 300;
+    letter-spacing: .2em;
+}
+.overlay_text2_para_image4
+{
+    color: #f0f0f7;
+    font-size: 20px;
+    padding-top: 5px;
+    font-weight: 400;
+    letter-spacing: -.0em;
+}
+
+
+.learnmore_button_image4
+{
+    border: 2px;
+    background-color: #0071e3;
+    border-radius: 19px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-left:10px ;
+    padding-right:10px ;
+    
+}
+.buy_button_image4
+{
+   
+    border-width: .5px;
+    border-color: #2997ff;
+    border-style: solid;
+    background-color:transparent;
+    border-radius: 19px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 11px 18px;
+    color: #2997ff;
+    letter-spacing: -.022em;
+}
+.buy_button_image4:hover
+{
+    background-color:#0071e3;
+    color: #fff;
+}
+
+.textNearBuyButton_image4{
+    font-size: 20px;
+    margin-top: 35px;
+    color: #86868b;
+    
+}
+/* image5 */
+.image5_div
+{
+    background-image:url(static/airpod.jpg);
+    width: 99.6%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: end;
+
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.airpod_div
+{
+    width: 100px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+.buttons_div_image5
+{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 34px;
+    
+}
+.airpod_div h1
+{
+    font-size: 42px;
+    color: #e0e0ec;
+}
+
+
+.overlay_text_para_image5
+{
+    color: #fcfcff;
+    font-size: 20px;
+    padding-top: 5px;
+    font-weight: 300;
+    letter-spacing: -.0em;
+}
+.image5_div .overlay_text2_para_image5
+{
+    color: #fcfcff;
+    font-size: 20px;
+    padding-top: 5px;
+    font-weight: 400;
+    letter-spacing: -.0em;
+}
+
+
+.learnmore_button_image5
+{
+    border: 2px;
+    background-color: #0071e3;
+    border-radius: 19px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-left:15px ;
+    padding-right:15px ;
+
+}
+.buy_button_image5
+{
+   
+    border-width: .5px;
+    border-color: #2997ff;
+    border-style: solid;
+    background-color:transparent;
+    border-radius: 19px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 11px 18px;
+    color: #2997ff;
+    letter-spacing: -.022em;
+}
+.buy_button_image5:hover
+{
+    background-color:#0071e3;
+    color: #fff;
+}
+
+.textNearBuyButton_image5{
+    font-size: 20px;
+    margin-top: 35px;
+    color: #86868b;
+    
+}
+
+/* image6&7 */
+
+.image6_7_div
+{
+width: 100%;
+height: 580px;
+display: flex;
+justify-content: center;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+}
+
+/* image6 */
+
+.image6_div
+{
+    background-image:url(static/airpods-max-hero-select-202409_FMT_WHH.jpg);
+    width: 99.6%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: end;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.AirPod_div_image6
+{
+    width: 100px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+.buttons_div_image6
+{
+    width: 100px;
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34px;
+}
+.AirPod_div_image6 h1
+{
+    color: #1D1D1F;
+    font-size: 40px;
+}
+
+.overlay_text_para_image6
+{
+    color: #1D1D1F;
+    font-size: 18px;
+    padding-top: 5px;
+    font-weight: 300;
+    letter-spacing: .2em;
+}
+.learnmore_button_image6
+{
+    border: 2px;
+    background-color: #0071e3;
+    border-radius: 19px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-left:10px ;
+    padding-right:10px ;
+    
+}
+.buy_button_image6
+{
+   
+    border-width: .5px;
+    border-color: #2997ff;
+    border-style: solid;
+    background-color:transparent;
+    border-radius: 19px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 11px 18px;
+    color: #2997ff;
+    letter-spacing: -.022em;
+}
+.buy_button_image6:hover
+{
+    background-color:#0071e3;
+    color: #fff;
+}
+
+.textNearBuyButton_image6{
+    font-size: 20px;
+    margin-top: 35px;
+    color: #86868b;
+    
+}
+/* image7 */
+.image7_div
+{
+    background-image:url(static/laptop.jpg);
+    width: 99.6%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: start;
+
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.MacBook_div
+{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.buttons_div_image7
+{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.MacBook_div h1
+{
+    font-size: 42px;
+    color: #1D1D1F;
+}
+
+
+.overlay_text_para_image7
+{
+    color: #1D1D1F;
+    font-size: 18px;
+    padding-top: 5px;
+    font-weight: 300;
+    letter-spacing: -.0em;
+}
+
+.learnmore_button_image7
+{
+    border: 2px;
+    background-color: #0071e3;
+    border-radius: 19px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-left:15px ;
+    padding-right:15px ;
+
+}
+.buy_button_image7
+{
+   
+    border-width: .5px;
+    border-color: #2997ff;
+    border-style: solid;
+    background-color:transparent;
+    border-radius: 19px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 11px 18px;
+    color: #2997ff;
+    letter-spacing: -.022em;
+}
+.buy_button_image7:hover
+{
+    background-color:#0071e3;
+    color: #fff;
+}
+
+.textNearBuyButton_image7{
+    font-size: 20px;
+    margin-top: 35px;
+    color: #86868b;
+    
+}
+
+/* image8&9 */
+
+.image8_9_div
+{
+width: 100%;
+height: 580px;
+display: flex;
+justify-content: center;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+}
+
+/* image8 */
+
+.image8_div
+{
+    background-image:url(static/ipad.jpg);
+    width: 99.6%;
+    height: 557px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: start;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.AirPod_div_image8
+{
+    width: 100px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.buttons_div_image8
+{
+    width: 100px;
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34px;
+}
+.AirPod_div_image8 h1
+{
+    color: #e0e2e5;
+    font-size: 40px;
+}
+
+.overlay_text_para_image8
+{
+    color: #e0e2e5;
+    font-size: 18px;
+    padding-top: 5px;
+    font-weight: 300;
+    letter-spacing: .2em;
+}
+.learnmore_button_image8
+{
+    border: 2px;
+    background-color: #0071e3;
+    border-radius: 19px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-left:10px ;
+    padding-right:10px ;
+    
+}
+.buy_button_image8
+{
+   
+    border-width: .5px;
+    border-color: #2997ff;
+    border-style: solid;
+    background-color:transparent;
+    border-radius: 19px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 11px 18px;
+    color: #2997ff;
+    letter-spacing: -.022em;
+}
+.buy_button_image8:hover
+{
+    background-color:#0071e3;
+    color: #fff;
+}
+
+.textNearBuyButton_image8{
+    font-size: 20px;
+    margin-top: 35px;
+    color: #86868b;
+    
+}
+
+/* image9 */
+.image9_div
+{
+    background-image:url(static/new-tradein-hero-iph15-v2.jpg);
+    width: 99.6%;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: start;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.MacBook_div
+{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.buttons_div_image9
+{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.MacBook_div h1
+{
+    font-size: 42px;
+    color: #1D1D1F;
+}
+
+
+.overlay_text_para_image9
+{
+    color: #1D1D1F;
+    font-size: 18px;
+    padding-top: 5px;
+    font-weight: 300;
+    letter-spacing: -.0em;
+}
+
+.learnmore_button_image9
+{
+    border: 2px;
+    background-color: #0071e3;
+    border-radius: 19px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-left:15px ;
+    padding-right:15px ;
+
+}
+.buy_button_image9
+{
+   
+    border-width: .5px;
+    border-color: #2997ff;
+    border-style: solid;
+    background-color:transparent;
+    border-radius: 19px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 18px 20px;
+
+    color: #2997ff;
+    letter-spacing: -.022em;
+}
+
+
+.textNearBuyButton_image9{
+    font-size: 20px;
+    margin-top: 35px;
+    color: #86868b;
+    
+}
+.last_img_div
+{
+width: 100%;
+height: 580px;
+background-image: url(static/Apple_TV_Bad_Monkey_key_art_graphic_header_4_1_show_home.jpg.og.jpg);
+}
+.white_div_last
+{
+    width: 100%;
+    height: 35px;
+}
+/* footer */
+.footer_class
+{
+    width: 100%;
+    background-color: #F5F5F7;
+    height: 650px;
+}
+.footer_firstdiv
+{
+    width: 63%;
+    height: 125px;
+    color: #6C6C6C;
+    padding-left: 270px;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+.footer_firstdiv ul
+{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer_firstdiv ul li
+{
+    
+    padding-top: 15px;
+}
+.hrdiv1
+{
+    margin-right:285px ;
+    margin-left:267px ;
+}
+.footer_hr1
+{
+    width: 100%;
+    background-color: #6C6C6C;
+    
+}
+.footer_secdiv
+{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.footer_secdiv ul
+{
+    list-style: none;
+    
+}
+.footer_secdiv li
+{
+    margin-top: 10px;
+    
+}
+.footer_secdiv a
+{
+    text-decoration: none;
+    color: #6C6C6C;
+    font-size: 12px;
+}
+.bold_a
+{
+    font-weight: bold;
+    font-size: 14px;
+}
+.footer_para
+{
+    width: 100%;
+    color: #6C6C6C;
+    font-size: 12px;
+    margin-left: 262px;
+    margin-bottom: 20px;
+    
+}
+.footer_para2 p
+{
+margin-top: 25px;
+float: left;
+padding-right: 30PX;
+color: #6C6C6C;
+font-size: 12px;
+margin-left: 262px;
+}
